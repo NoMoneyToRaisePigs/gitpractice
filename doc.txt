@@ -4,4 +4,5 @@ Developer Branch
 Feature 1 
 
 Feature 2
-Feture 2.1
+Feature 2.1
+Feature 2.2
