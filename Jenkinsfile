@@ -9,8 +9,10 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
-                cat test.txt
+                 sh '''#!/bin/bash
+                         echo "hello world" 
+                         cat test.txt
+                 '''
             }
         }
         stage('Deploy') {
